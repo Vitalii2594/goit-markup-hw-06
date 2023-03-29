@@ -674,6 +674,7 @@ body {
   width: 165px;
   height: 40px;
   background-color: var(--primary-brand);
+  border: none;
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   /* text */
