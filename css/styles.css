@@ -247,7 +247,6 @@ body {
   display: flex;
 }
 .about-item-icon:not(:last-child) {
-  margin-right: 24px;
 }
 .about-item-icon {
   display: flex;
