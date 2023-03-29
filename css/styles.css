@@ -164,7 +164,7 @@ body {
   color: var(--text);
   margin-left: auto;
   margin-right: 40px;
-    transition-property: color;
+  transition-property: color;
   transition-duration: var(--tra-dur);
   transition-timing-function: var(--tra-tim);
 }
@@ -227,7 +227,7 @@ body {
   font-size: 16px;
   letter-spacing: 0.04em;
   color: var(--white-text-color);
-    transition-property: background-color;
+  transition-property: background-color;
   transition-duration: var(--tra-dur);
   transition-timing-function: var(--tra-tim);
 }
@@ -489,9 +489,14 @@ body {
 .portfolio-card-item {
   list-style: none;
   flex-basis: calc(100% / 3 - 24px);
+  box-shadow: none;
+  transition-property: box-shadow;
+  transition-duration: var(--tra-dur);
+  transition-timing-function: var(--tra-tim);
 }
 
-.portfolio-card-item:hover {
+.portfolio-card-item:hover,
+.portfolio-card-item:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
@@ -515,9 +520,10 @@ body {
   padding-left: 32px;
   height: 100%;
   transform: translateY(100%);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform var(--tra-dur) var(--tra-tim);
 }
-.portfolio-card-item:hover .portfolio-overlay {
+.portfolio-card-link:hover .portfolio-overlay,
+.portfolio-card-link:focus .portfolio-overlay {
   transform: translateY(0);
 }
 
@@ -650,7 +656,7 @@ body {
   line-height: 24px;
   letter-spacing: 0.04em;
   color: rgba(255, 255, 255, 0.6);
-    transition-property: border;
+  transition-property: border;
   transition-duration: var(--tra-dur);
   transition-timing-function: var(--tra-tim);
 }
@@ -681,7 +687,7 @@ body {
   transition-duration: var(--tra-dur);
   transition-timing-function: var(--tra-tim);
   margin-bottom: 16px;
-    transition-property: background-color, box-shadow;
+  transition-property: background-color, box-shadow;
   transition-duration: var(--tra-dur);
   transition-timing-function: var(--tra-tim);
 }
