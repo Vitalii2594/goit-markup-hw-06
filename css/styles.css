@@ -51,7 +51,6 @@ body {
   font-size: 16px;
 }
 .section {
-  max-width: 1440px;
   margin: 0 auto;
   padding-top: 120px;
 }
@@ -125,6 +124,9 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--dark);
+  transition-property: color;
+  transition-duration: var(--tra-dur);
+  transition-timing-function: var(--tra-tim);
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -162,6 +164,9 @@ body {
   color: var(--text);
   margin-left: auto;
   margin-right: 40px;
+    transition-property: color;
+  transition-duration: var(--tra-dur);
+  transition-timing-function: var(--tra-tim);
 }
 .contact-link:hover,
 .contact-link:focus {
@@ -222,6 +227,9 @@ body {
   font-size: 16px;
   letter-spacing: 0.04em;
   color: var(--white-text-color);
+    transition-property: background-color;
+  transition-duration: var(--tra-dur);
+  transition-timing-function: var(--tra-tim);
 }
 .modal-btn:hover,
 .modal-btn:focus {
@@ -326,6 +334,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition-property: background-color;
+  transition-duration: var(--tra-dur);
+  transition-timing-function: var(--tra-tim);
 }
 .social-link:hover,
 .social-link:focus {
@@ -333,6 +344,9 @@ body {
 }
 .social-svg {
   fill: var(--white-text-color);
+  transition-property: fill;
+  transition-duration: var(--tra-dur);
+  transition-timing-function: var(--tra-tim);
 }
 .social-link,
 .social-svg:hover,
@@ -534,10 +548,10 @@ body {
 
 /* ======================== FOOTER ======================== */
 .page-footer {
-  max-width: 1440px;
   background-color: #2e2f42;
   padding-top: 100px;
   padding-bottom: 100px;
+  margin: 0 auto;
 }
 .footer-container {
   display: flex;
@@ -592,6 +606,9 @@ body {
   height: 100%;
   background-color: var(--footer-icon-color);
   border-radius: 50%;
+  transition-property: background-color;
+  transition-duration: var(--tra-dur);
+  transition-timing-function: var(--tra-tim);
 }
 .footer-social-svg {
   fill: var(--light);
@@ -600,7 +617,8 @@ body {
 .footer-social-link:hover {
   background-color: var(--footer-focus-icon);
 }
-/* FOOTER SOCIAL */
+
+/* FOOTER SOCIAL FORM */
 
 .footer-form-wrapper {
   margin-left: 80px;
@@ -632,6 +650,9 @@ body {
   line-height: 24px;
   letter-spacing: 0.04em;
   color: rgba(255, 255, 255, 0.6);
+    transition-property: border;
+  transition-duration: var(--tra-dur);
+  transition-timing-function: var(--tra-tim);
 }
 .footer-form-input:focus {
   outline: none;
@@ -660,6 +681,9 @@ body {
   transition-duration: var(--tra-dur);
   transition-timing-function: var(--tra-tim);
   margin-bottom: 16px;
+    transition-property: background-color, box-shadow;
+  transition-duration: var(--tra-dur);
+  transition-timing-function: var(--tra-tim);
 }
 .footer-form-sumbit:hover,
 .footer-form-sumbit:focus {
