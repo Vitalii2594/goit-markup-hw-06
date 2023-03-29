@@ -520,8 +520,8 @@ body {
   transform: translateY(100%);
   transition: transform var(--tra-dur) var(--tra-tim);
 }
-.portfolio-card-link:hover .portfolio-overlay,
-.portfolio-card-link:focus .portfolio-overlay {
+.portfolio-card-link .portfolio-overlay:hover,
+.portfolio-card-link .portfolio-overlay:focus {
   transform: translateY(0);
 }
 
