@@ -215,7 +215,6 @@ body {
   background-color: var(--primary-brand);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  transition: color var(--tra-dur), backgraund-color var(--tra-dur);
   align-items: center;
   border: none;
   margin: 0 auto;
@@ -677,24 +676,21 @@ body {
   height: 40px;
   background-color: var(--primary-brand);
   border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   /* text */
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.04em;
   color: var(--white-text-color);
-  transition-property: background-color, box-shadow;
-  transition-duration: var(--tra-dur);
-  transition-timing-function: var(--tra-tim);
   margin-bottom: 16px;
-  transition-property: background-color, box-shadow;
+  transition-property: background-color;
   transition-duration: var(--tra-dur);
   transition-timing-function: var(--tra-tim);
 }
 .footer-form-sumbit:hover,
 .footer-form-sumbit:focus {
   background-color: var(--navigation-active);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
 .footer-form-subbit-icon {
@@ -884,10 +880,13 @@ body {
   width: 169px;
   height: 56px;
   left: 635px;
+  border: none;
   background: var(--primary-brand);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  transition: color var(--tra-dur), backgraund-color var(--tra-dur);
+  transition-property: background-color;
+  transition-duration: var(--tra-dur);
+  transition-timing-function: var(--tra-tim);
   /* text */
   font-weight: 500;
   font-size: 16px;
@@ -898,6 +897,5 @@ body {
 .modal-form-sumbit:hover,
 .modal-form-sumbit:focus {
   background-color: var(--navigation-active);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
