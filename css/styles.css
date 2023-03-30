@@ -871,7 +871,7 @@ body {
 }
 .modal-form-check:checked + .modal-form-check-desc::before {
   background-color: var(--primary-brand);
-  background-image: url(/images/modal/check.svg);
+  background-image: url(../images/modal/check.svg);
   background-size: inherit;
   background-repeat: no-repeat;
   background-position: center;
