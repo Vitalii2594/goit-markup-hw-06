@@ -761,7 +761,6 @@ body {
 .modal-form {
   display: flex;
   flex-direction: column;
-  gap: 8px;
 }
 .modal-foorm-text {
   font-weight: 500;
@@ -786,6 +785,12 @@ body {
   padding-left: 38px;
   background-color: #fcfcfc;
   transition: border-color var(--tra-dur);
+}
+.modal-form-fieled {
+  margin-bottom: 8px;
+}
+.modal-form-comment {
+  margin-bottom: 14px;
 }
 .modal-form-input:focus {
   border: 1px solid var(--primary-brand);
