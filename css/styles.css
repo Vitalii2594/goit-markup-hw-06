@@ -827,7 +827,8 @@ body {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   resize: none;
-  padding: 8px 16px;
+  background-color: #fcfcfc;
+  margin-bottom: 16px;
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
@@ -848,7 +849,7 @@ body {
   line-height: 16px;
   letter-spacing: 0.04em;
   color: #757575;
-  padding-bottom: 24px;
+  margin-bottom: 24px;
 }
 .modal-form-check-link {
   font-weight: 400;
@@ -876,9 +877,9 @@ body {
   background-position: center;
 }
 .modal-form-sumbit {
-  align-self: center;
-  width: 169px;
-  height: 56px;
+  margin-left: 95px;
+  margin-right: 96px;
+  padding: 16px 32px;
   left: 635px;
   border: none;
   background: var(--primary-brand);
