@@ -625,7 +625,7 @@ body {
 /* FOOTER SOCIAL FORM */
 
 .footer-form-wrapper {
-  margin-left: 80px;
+  margin-left: auto;
 }
 .footer-form {
   display: flex;
