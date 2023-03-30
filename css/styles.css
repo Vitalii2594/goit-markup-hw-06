@@ -879,6 +879,7 @@ body {
 .modal-form-sumbit {
   margin-left: 95px;
   margin-right: 96px;
+  margin-bottom: 24px;
   padding: 16px 32px;
   left: 635px;
   border: none;
