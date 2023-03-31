@@ -831,13 +831,14 @@ body {
   border-radius: 4px;
   resize: none;
   background-color: #fcfcfc;
-  padding: 0;
+
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.04em;
   color: rgba(117, 117, 117, 0.5);
   transition: border-color var(--tra-dur);
+  padding: 8px 16px;
 }
 .modal-form-message:focus {
   outline: none;
