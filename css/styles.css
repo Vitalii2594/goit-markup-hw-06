@@ -824,7 +824,6 @@ body {
 .modal-form-input:focus + .modal-form-input-icon {
   fill: var(--primary-brand);
 }
-
 .modal-form-message {
   width: 360px;
   height: 120px;
